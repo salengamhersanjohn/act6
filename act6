@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.activity6;
+
+/**
+ *
+ * @author User
+ */
+import java.util.Scanner;
+        
+public class Activity6 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your name : ");
+        String fullName = scanner.nextLine();
+        
+        System.out.println("Enter your age : ");
+        byte age = scanner.nextByte();
+        
+        System.out.println("Enter your height : ");
+        double height = scanner.nextDouble();
+        
+        System.out.println("Enter your Gender (M for male and F for): ");
+        char gender = scanner.next().charAt(0);
+        
+        System.out.println("Are you married? (true/false) : ");
+        boolean isMarried = scanner.nextBoolean();
+        
+        
+                
+    }
+}
